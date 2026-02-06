@@ -635,7 +635,7 @@ export default function Page() {
                           className="w-full px-3 py-2 bg-white border-2 border-gray-300 rounded-md focus:border-blue-500 focus:ring-2 focus:ring-blue-200 focus:outline-none transition-all duration-200 text-right text-sm text-black font-medium"
                           type="number"
                           value={it.rate}
-                          onChange={(e) => updateItem(idx, { qty: Number(e.target.value) })}
+                          onChange={(e) => updateItem(idx, { rate: Number(e.target.value) })}
                         />
                       </div>
                     </div>
